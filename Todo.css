@@ -1,0 +1,45 @@
+ody {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+#task-input {
+  width: 50%;
+  height: 30px;
+  font-size: 18px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#add-task-btn {
+  width: 20%;
+  height: 30px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#task-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+#task-list li:last-child {
+  border-bottom: none;
+}
+
+#task-list li:hover {
+  background-color: #f9f9f9;
+}
+.completed {
+  text-decoration: line-through;
+}
